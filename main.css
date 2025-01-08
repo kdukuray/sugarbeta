@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+}
+
+body{
+    width: 20rem;
+    height: 30rem;
+    background-color: "red"
+}
+
+.popup-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(17, 17, 52);
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+.main-heading{
+    text-align: center;
+    color: aliceblue;
+}
+
+.popup-logo{
+    height: 2rem
+}
+
+.all-coupons{
+    margin-top: 2rem;
+}
+
+.coupon{
+    margin: 0.5rem;
+    border: 1px solid lightgray;
+    height: 2.75rem;
+}
+
+.coupon-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: center;
+   
+}
+
+.coupon-code{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+.copy-coupon-btn{
+    background-color: rgb(17, 17, 52);
+    color: aliceblue;
+    width: 5rem;
+    border-radius: 0.5rem;
+    border: none;
+    height: 1.5rem;
+}
